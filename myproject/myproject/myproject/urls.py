@@ -21,8 +21,12 @@ from django.conf.urls import url
 from boards import views as core_views
 
 urlpatterns = [
+<<<<<<< HEAD
 
     url(r'',core_views.home, name = 'home'),
+=======
+    
+>>>>>>> 966fae0f6f5c6eaa8497c6eeefa095d8cef396d1
     url(r'^signup/$', core_views.signup, name='signup'),
     url(r'^hello/$', core_views.signup, name='hello'),
     url(r'^admin/', admin.site.urls),

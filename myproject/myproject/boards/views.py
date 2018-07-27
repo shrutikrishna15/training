@@ -23,10 +23,15 @@ def signup(request):
 '''''
 from django.contrib.auth import login, authenticate
 from django.shortcuts import render, redirect
+<<<<<<< HEAD
 from boards.forms import SignUpForm
 
 def home(request):
     return render(request,'home.html')
+=======
+
+from boards.forms import SignUpForm
+>>>>>>> 966fae0f6f5c6eaa8497c6eeefa095d8cef396d1
 
 def signup(request):
     if request.method == 'POST':
